@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Blend name:</strong>
+  <%= @cafe.blend_name %>
+</p>
+
+<p>
+  <strong>Origin:</strong>
+  <%= @cafe.origin %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @cafe.price %>
+</p>
+
+<%= link_to 'Edit', edit_cafe_path(@cafe) %> |
+<%= link_to 'Back', caves_path %>
